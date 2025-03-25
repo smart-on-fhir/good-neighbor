@@ -1,0 +1,8 @@
+title: Neighborhood Watch
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - github-pages
+
+callouts:
+  note:
+    color: green
