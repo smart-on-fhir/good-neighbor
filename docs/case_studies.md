@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-parent: Overview
+parent: Bulk Data
 nav_order: 3
 ---
 # Case Studies

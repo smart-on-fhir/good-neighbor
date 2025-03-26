@@ -1,6 +1,6 @@
 ---
 title: Performance & Quality
-parent: Overview
+parent: Bulk Data
 nav_order: 2
 ---
 # Performance and Quality
