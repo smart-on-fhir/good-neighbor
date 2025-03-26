@@ -5,4 +5,51 @@ nav_order: 2
 ---
 
 # Vendor Tips & Tricks
-TODO: how to define a group
+
+## Epic
+
+### Defining a Group
+
+FHIR Groups are implemented as Epic registries.
+
+Work with your institution's Epic support team to define a registry for your cohort of
+patients, and then connect that registry to a FHIR Group and to your application.
+
+### Frequency
+
+Epic limits how frequently you can perform a bulk export for the same group & client ID.
+By default, once every 24 hours.
+
+You may see error messages like:
+```
+Error processing Bulk Data Kickoff request: Request not allowed: The Client requested this Group too recently.
+```
+
+You may need to request that the `FHIR_BULK_CLIENT_REQUEST_WINDOW_TBL` setting be changed.
+
+### Export Size
+
+Epic recommends no more than 1,000 patients should be exported at once.
+Bulk export times can really balloon as the size of the export increases.
+
+Here are some strategies to reduce the amount of data you are exporting:
+- Export one FHIR resource at a time
+  - Just Conditions: `_type=Condition`
+- For resources with a lot of entries (like Observation),
+  you might additionally slice by category
+  - Just laboratory Observations:
+  `_type=Observation&_typeFilter=Observation%3Fcategory%3Dlaboratory`
+- Export only a window of time for a given resource.
+  Most resources have some sort of date-based search parameter you can use.
+  - Just 2023 Encounters:
+  `_type=Encounter&_typeFilter=Encounter%3Fdate%3Dge2023-01-01T00:00:00Z%26date%3Dlt2024-01-01T00:00:00Z`
+
+## Oracle
+
+### Defining a Group
+
+FHIR Groups are defined as a list of patient IDs to include in the group.
+These Groups have a maximum of 20,000 patients, at the time of writing. 
+
+Work with your institution's Oracle support team to define the group based off of
+your cohort of patients.
