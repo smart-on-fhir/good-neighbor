@@ -1,7 +1,7 @@
 ---
 title: Resources
 has_children: true
-parent: Overview
+parent: Bulk Data
 nav_order: 1
 ---
 # Bulk FHIR Resources
