@@ -12,9 +12,11 @@ The SMART team maintains an open access
 
 ### Connect
 The sandbox can be configured many different ways, but the default setup holds 100 patients and requires no authentication:
+
 `https://bulk-data.smarthealthit.org/fhir`
 
 ### Example
+Using bulk-data-client:
 ```sh
 git clone https://github.com/smart-on-fhir/bulk-data-client.git
 cd bulk-data-client
@@ -24,6 +26,7 @@ node . \
   --fhir-url https://bulk-data.smarthealthit.org/fhir \
   --_type Patient
 ```
+Using cumulus-etl:
 ```sh
 pipx install cumulus-etl
 
@@ -48,29 +51,36 @@ Once registered, your application will be assigned some IDs. Take note of the No
 You'll also need to provide a PEM, for authentication to the sandbox. This is a public/private key pair that you can generate and provide to Epic. (For authenticating with a "real" Epic server, you'll want to generate a different kind of file – a JWK Set file – and publicly host it. But for sandbox use, uploading a PEM file is sufficient.)
 
 Epic has documentation for 
-[generating public and private PEM files](https://vendorservices.epic.com/Article?docId=oauth2&section=Creating-Key-Pair)
-. Follow those steps, then on your Vendor Services application page, click on the "Upload public key" button:
+[generating public and private PEM files](https://vendorservices.epic.com/Article?docId=oauth2&section=Creating-Key-Pair).
+Follow those steps, then on your Vendor Services application page,
+click on the "Upload public key" button:
 
 ![Epic upload button](../assets/epic_upload.png)
 
-Upload the `publickey509.pem` file from Epic's instructions and click Save. This change may take some time (up to a couple hours) to propagate across Epic's infrastructure.
+Upload the `publickey509.pem` file from Epic's instructions and click Save.
+This change may take some time (up to a couple of hours) to propagate across Epic's infrastructure.
 
-You will later need to provide your bulk export client with the privatekey.pem file.
+You will later need to provide your bulk export client with the `privatekey.pem` file.
+
 ### Connect
 This is the Epic sandbox group URL:
-https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Group/e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83
+
+`https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Group/e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83`
+
 ### Example
+Using cumulus-etl:
 ```sh
 pipx install cumulus-etl
 
 cumulus-etl export \
   --smart-client-id=xxx \
   --smart-key=./privatekey.pem \
-   'https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Group/e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83/$export?_type=Patient' \
+  'https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Group/e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83/$export?_type=Patient' \
   ./downloads
 ```
 ### Further Reading
-Epic's Bulk Export documentation might also be helpful.
+Epic's [Bulk Export documentation](https://fhir.epic.com/Documentation?docId=fhir_bulk_data)
+might also be helpful.
 
 ## Oracle Cerner
 ### Setup
@@ -99,7 +109,9 @@ You will later need to provide your bulk export client with the private.jwks fil
 
 ### Connect
 This is the Oracle sandbox group URL:
-https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Group/11ec-d16a-c763b73e-98e8-a31715e6a2bf
+
+`https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Group/11ec-d16a-c763b73e-98e8-a31715e6a2bf`
+
 ### Example
 ```sh
 git clone https://github.com/smart-on-fhir/bulk-data-client.git
@@ -120,8 +132,9 @@ pipx install cumulus-etl
 cumulus-etl export \
   --smart-client-id=xxx \
   --smart-key=./private.jwks \
-   'https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Group/11ec-d16a-c763b73e-98e8-a31715e6a2bf/$export?_type=Patient' \
+  'https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Group/11ec-d16a-c763b73e-98e8-a31715e6a2bf/$export?_type=Patient' \
   ./downloads
 ```
-Further Reading
+
+### Further Reading
 Oracle’s [Bulk Export documentation](https://docs.oracle.com/en/industries/health/millennium-platform-apis/mfbda/bulk_data_access.html) might also be helpful.

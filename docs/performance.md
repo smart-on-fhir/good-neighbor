@@ -35,7 +35,7 @@ These metrics are designed as a
 study. They can operate on small amounts of local data, but you will be able to run metrics for your entire population if you set up the entire 
 [Cumulus](https://docs.smarthealthit.org/cumulus/) pipeline in AWS. For now, we'll focus on the local data approach.
 
-Assuming you have some exported bulk NDJSON sitting in the folder ./downloads:
+Assuming you have some exported bulk NDJSON sitting in the folder `./downloads`:
 
 ```sh
 pipx install cumulus-library
@@ -53,9 +53,10 @@ cumulus-library export \
   --db-type duckdb \
   --database metrics.db \
   --target data_metrics \
- ./reports
+  ./reports
 ```
-This will create a local file metrics.db that holds all the calculated metrics based on your data and a reports/ directory that holds summaries of the results, in both CSV and parquet forms.
+This will create a local file `metrics.db` that holds all the calculated metrics based on your data
+and a `reports/` directory that holds summaries of the results, in both CSV and parquet forms.
 
 ### How to submit your logs to SMART
 TODO Form a la https://smarthealthit.org/an-app-platform-for-healthcare/contact-us/
