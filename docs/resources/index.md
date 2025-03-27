@@ -1,6 +1,7 @@
 ---
 title: Resources
 has_children: true
+hide_hero: true
 parent: Bulk Data
 nav_order: 1
 ---

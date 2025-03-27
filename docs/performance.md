@@ -1,6 +1,7 @@
 ---
 title: Performance & Quality
 parent: Bulk Data
+hide_hero: true
 nav_order: 2
 ---
 # Performance and Quality

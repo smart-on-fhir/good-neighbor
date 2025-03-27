@@ -310,6 +310,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-remote-theme
   just-the-docs
   webrick
 

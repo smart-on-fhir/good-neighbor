@@ -1,6 +1,7 @@
 ---
 title: Discussions
 parent: Bulk Data
+hide_hero: true
 nav_order: 4
 ---
 # Discussions

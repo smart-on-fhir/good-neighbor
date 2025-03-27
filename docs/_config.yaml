@@ -1,8 +1,7 @@
 title: Good Neighbor
-remote_theme: just-the-docs/just-the-docs
+
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 plugins:
   - github-pages
 
-callouts:
-  note:
-    color: green
+fixed_navbar: top
