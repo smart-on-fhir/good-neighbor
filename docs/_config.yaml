@@ -1,5 +1,5 @@
 title: Good Neighbor
-remote_theme: # With GitHub Pages Gem
+
 remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 plugins:
   - github-pages
