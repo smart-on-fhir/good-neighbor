@@ -1,6 +1,7 @@
 ---
 title: Vendor Tips & Tricks
 parent: Resources
+hide_hero: true
 nav_order: 2
 ---
 

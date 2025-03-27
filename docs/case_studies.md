@@ -1,6 +1,7 @@
 ---
 title: Case Studies
 parent: Bulk Data
+hide_hero: true
 nav_order: 3
 ---
 # Case Studies

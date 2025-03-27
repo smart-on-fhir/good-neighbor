@@ -1,6 +1,7 @@
 ---
 title: Sandboxes
 parent: Resources
+hide_hero: true
 nav_order: 1
 ---
 
