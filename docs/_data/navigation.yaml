@@ -1,13 +1,8 @@
+- name: Resources
+  link: /resources
 - name: Performance and Quality
   link: /performance
 - name: Case Studies
   link: /case_studies
-- name: Resources
-  link: /resources
-  dropdown: 
-    - name: Sandboxes
-      link: sandboxes
-    - name: Vendor Tips & Tricks
-      link: tips
-- name: Discussion
-  link: /discussion
+- name: Tips
+  link: /tips

@@ -1,12 +1,13 @@
 ---
 title: Sandboxes
-parent: Resources
+parent: Home
 hide_hero: true
 nav_order: 1
 ---
 
 # Bulk FHIR Sandboxes
 
+<a id="smart"/>
 ## SMART Reference Implementation
 The SMART team maintains an open access 
 [Bulk FHIR sandbox](https://bulk-data.smarthealthit.org/) for testing.
@@ -35,6 +36,8 @@ cumulus-etl export \
   'https://bulk-data.smarthealthit.org/fhir/$export?_type=Patient' \
   ./downloads
 ```
+
+<a id="epic"/>
 ## Epic
 ### Setup
 This sandbox requires authentication when doing bulk exports.
@@ -83,7 +86,10 @@ cumulus-etl export \
 Epic's [Bulk Export documentation](https://fhir.epic.com/Documentation?docId=fhir_bulk_data)
 might also be helpful.
 
+
+<a id="cerner"/>
 ## Oracle Cerner
+
 ### Setup
 This sandbox requires authentication when doing bulk exports.
 

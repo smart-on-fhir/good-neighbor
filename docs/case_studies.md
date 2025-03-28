@@ -1,10 +1,10 @@
 ---
 title: Case Studies
-parent: Bulk Data
+parent: Home
 hide_hero: true
-nav_order: 3
+nav_order: 2
 ---
 # Case Studies
 
-## Submit Form
-Form a la https://smarthealthit.org/an-app-platform-for-healthcare/contact-us/ 
+## Submit A Case Study
+TODO: Form
