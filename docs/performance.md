@@ -1,10 +1,11 @@
 ---
 title: Performance & Quality
-parent: Bulk Data
+parent: Home
 hide_hero: true
-nav_order: 2
+nav_order: 1
 ---
 # Performance and Quality
+
 ## Bulk FHIR Performance in the Wild
 The SMART team has previously performed a 
 [survey of performance of bulk FHIR](https://pmc.ncbi.nlm.nih.gov/articles/PMC11031206/) 
@@ -23,7 +24,7 @@ SMART is interested in collecting these bulk export performance logs from as man
 All you have to do is run a bulk export using one of the SMART tools (bulk-data-client or cumulus-etl) and there should be a log.ndjson file sitting in the data download folder (or several files with names like log*.ndjson), next to your other NDJSON files.
 
 ### How to submit your logs to SMART
-TODO Form a la https://smarthealthit.org/an-app-platform-for-healthcare/contact-us/
+TODO: Form
 
 ## Submit CumulusQ Metrics
 CumulusQ Metrics are a collection of data metrics that make it easier to surface interesting trends in your FHIR data, from conformance issues to code coverage to demographic information.
@@ -60,4 +61,4 @@ This will create a local file `metrics.db` that holds all the calculated metrics
 and a `reports/` directory that holds summaries of the results, in both CSV and parquet forms.
 
 ### How to submit your logs to SMART
-TODO Form a la https://smarthealthit.org/an-app-platform-for-healthcare/contact-us/
+TODO: Form

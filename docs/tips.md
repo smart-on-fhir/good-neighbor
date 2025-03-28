@@ -1,13 +1,16 @@
 ---
-title: Vendor Tips & Tricks
-parent: Resources
+title: EHR Vendor Tips & Tricks
+parent: Home
 hide_hero: true
-nav_order: 2
+nav_order: 1
 ---
 
 # Vendor Tips & Tricks
 
 ## Epic
+
+### Connecting to the Sandbox
+[Community documentation](sandboxes.md#epic)
 
 ### Defining a Group
 
@@ -47,6 +50,9 @@ Here are some strategies to reduce the amount of data you are exporting:
 
 ## Oracle
 
+### Connecting to the Sandbox
+[Community documentation](sandboxes.md#cerner)
+
 ### Defining a Group
 
 FHIR Groups are defined as a list of patient IDs to include in the group.
@@ -54,3 +60,6 @@ These Groups have a maximum of 20,000 patients, at the time of writing.
 
 Work with your institution's Oracle support team to define the group based off of
 your cohort of patients.
+
+## Share a Tip
+TODO: Form Here
