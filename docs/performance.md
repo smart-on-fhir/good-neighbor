@@ -4,15 +4,17 @@ parent: Home
 hide_hero: true
 nav_order: 1
 ---
-# Performance and Quality
+
+# BulkUP - the Bulk Data User Partnership
 
 ## Bulk FHIR Performance in the Wild
 The SMART team has previously performed a 
 [survey of performance of bulk FHIR](https://pmc.ncbi.nlm.nih.gov/articles/PMC11031206/) 
 across five sites and three software implementations. The results showed that bulk FHIR performance varied significantly across implementations. In practice, slow bulk performance can mean that it is impractical to investigate your population-scale data, despite the promise of bulk FHIR of being able to do just that.
 
-But implementations are always changing, and there are certainly more implementations to test. That's where you come in!
+But implementations are always changing, and there are certainly more implementations to test. That's where you come in - measure the performance and and data quality of your Bulk FHIR interface using the open source CumulusQ tools and share your results with the community! 
 
+---
 ## Submit Bulk Export Logs
 SMART bulk export clients generate a 
 [standard log format](https://github.com/smart-on-fhir/bulk-data-client/wiki/Bulk-Data-Export-Log-Items)
@@ -26,6 +28,7 @@ All you have to do is run a bulk export using one of the SMART tools (bulk-data-
 ### How to submit your logs to SMART
 TODO: Form
 
+---
 ## Submit CumulusQ Metrics
 CumulusQ Metrics are a collection of data metrics that make it easier to surface interesting trends in your FHIR data, from conformance issues to code coverage to demographic information.
 
