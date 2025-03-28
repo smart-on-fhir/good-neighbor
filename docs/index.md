@@ -14,7 +14,7 @@ EHR Good Neighbor is an effort by the SMART Health IT Project and the FHIR commu
 - [Vendor Specific Tips and Tricks](tips.md)
 
 ### Get Involved
-- [BulkUP](performance.md) Measure the performance and data quality of your Bulk Data interface
+- [BulkUP](performance.md) - measure the performance and data quality of your Bulk Data interface
 - [Submit a case study](case_studies.md) on a real world use case
 - [Share a tip](tips.md) on setting up and testing an interface in your EHR system
-- [Community issue tracking](https://ehr-good-neighbor.vercel.app/)
+- [Neighborhood Exchange](https://ehr-good-neighbor.vercel.app/) community issue tracking site
