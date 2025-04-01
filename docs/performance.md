@@ -7,32 +7,39 @@ nav_order: 1
 
 # BulkUP - the Bulk Data User Partnership
 
-## Bulk FHIR Performance in the Wild
 The SMART team has previously performed a 
 [survey of performance of bulk FHIR](https://pmc.ncbi.nlm.nih.gov/articles/PMC11031206/) 
 across five sites and three software implementations. The results showed that bulk FHIR performance varied significantly across implementations. In practice, slow bulk performance can mean that it is impractical to investigate your population-scale data, despite the promise of bulk FHIR of being able to do just that.
 
-But implementations are always changing, and there are certainly more implementations to test. That's where you come in - measure the performance and and data quality of your Bulk FHIR interface using the open source CumulusQ tools and share your results with the community! 
+But implementations are always changing, and there are certainly more implementations to test. That's where you come in - measure the performance and data quality of your Bulk FHIR interface using the open source CumulusQ tools and share your results with the community!
 
 ---
-## Submit Bulk Export Logs
+<div class="grid">
+<div class="col-1-2" markdown=1>
+
+## CumulusQ Performance
+CumulusQ Performance is an effort to gather bulk data performance logs from as many different
+sites and vendors as possible. This will help us understand the challenges and limitations of the current crop of bulk export implementations, in a variety of environments.
+
 SMART bulk export clients generate a 
 [standard log format](https://github.com/smart-on-fhir/bulk-data-client/wiki/Bulk-Data-Export-Log-Items)
 that has interesting data about the timing of the export and how many resources were exported. (It holds no sensitive or personal data.)
 
-SMART is interested in collecting these bulk export performance logs from as many different sites as possible. This will help us understand the challenges and limitations of the current crop of bulk export implementations, in a variety of environments.
-
 ### How to generate export logs
-All you have to do is run a bulk export using one of the SMART tools (bulk-data-client or cumulus-etl) and there should be a log.ndjson file sitting in the data download folder (or several files with names like log*.ndjson), next to your other NDJSON files.
+All you have to do is use one of the SMART bulk data tools (read more about them on the [Bulk Data Sandboxes](sandboxes.md) page) and there should be a `log.ndjson` file sitting in the data download folder (or several files with names like `log*.ndjson`), next to your other NDJSON files.
 
 ### How to submit your logs to SMART
 TODO: Form
 
----
-## Submit CumulusQ Metrics
-CumulusQ Metrics are a collection of data metrics that make it easier to surface interesting trends in your FHIR data, from conformance issues to code coverage to demographic information.
+</div>
 
-SMART is also interested in collecting data metrics from as many different sites as possible. This will help us understand the FHIR conformance challenges experienced by different vendors, how widespread certain standardized code systems are, and the general shape of FHIR data in the wild.
+<div class="col-1-2" markdown=1>
+
+## CumulusQ USCDI
+CumulusQ USCDI is a collection of data metrics that make it easier to surface interesting trends in your FHIR data, from conformance issues to code coverage to demographic information.
+
+SMART is interested in collecting data metrics from as many different sites as possible.
+This will help us understand the FHIR conformance challenges experienced by different vendors, how widespread certain standardized code systems are, and the general shape of FHIR data in the wild.
 
 ### How to generate the data metrics
 These metrics are designed as a 
@@ -65,3 +72,6 @@ and a `reports/` directory that holds summaries of the results, in both CSV and 
 
 ### How to submit your logs to SMART
 TODO: Form
+
+</div>
+</div>

@@ -39,8 +39,8 @@ nav_order: 1
 - [Medicare Claim Pilot for Providers](https://dpc.cms.gov/) / [For ACOs](https://bcda.cms.gov/) / [For Part D Sponsors](https://ab2d.cms.gov/)
 
 ## Support
-- [HL7 Chat Room](https://chat.fhir.org/#narrow/channel/179250-bulk-data)
-- [SMART on FHIR Group](https://groups.google.com/g/smart-on-fhir?pli=1)
+- [HL7 Chat Room](https://chat.fhir.org/#narrow/channel/179250-bulk-data) - Tulip chat for Bulk Data
+- [SMART on FHIR Group](https://groups.google.com/g/smart-on-fhir?pli=1) - Google Groups mailing list
 
 ## Related Projects
 - [SQL-on-FHIR](https://sql-on-fhir.org/) - Analytics for Bulk FHIR datasets

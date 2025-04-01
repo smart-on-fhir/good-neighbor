@@ -3,3 +3,14 @@
 $primary: #76ACCD;
 // Import Main CSS file from theme
 @import "main";
+
+// Two-column layout support
+.grid {
+  display: flex;
+}
+.col-1-2 {
+  flex: 1;
+}
+.col-1-2:last-child {
+  margin-left: 20px;
+}

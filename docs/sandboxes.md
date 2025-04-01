@@ -5,12 +5,12 @@ hide_hero: true
 nav_order: 1
 ---
 
-# Bulk FHIR Sandboxes
+# Bulk Data Sandboxes
 
 <a id="smart"/>
 ## SMART Reference Implementation
-The SMART team maintains an open access 
-[Bulk FHIR sandbox](https://bulk-data.smarthealthit.org/) for testing.
+The SMART team maintains an open access
+[bulk data sandbox](https://bulk-data.smarthealthit.org/) for testing.
 
 ### Connect
 The sandbox can be configured many different ways, but the default setup holds 100 patients and requires no authentication:
