@@ -15,8 +15,8 @@ across five sites and three software implementations. The results showed that bu
 But implementations are always changing, and there are certainly more implementations to test. That's where you come in - measure the performance and data quality of your Bulk FHIR interface using the open source CumulusQ tools and share your results with the community!
 
 ---
-<div class="grid">
-<div class="col-1-2" markdown=1>
+<div class="columns is-8">
+<div class="column" markdown=1>
 
 ## CumulusQ Performance
 CumulusQ Performance is an effort to gather bulk data performance logs from as many different
@@ -34,7 +34,7 @@ TODO: Form
 
 </div>
 
-<div class="col-1-2" markdown=1>
+<div class="column" markdown=1>
 
 ## CumulusQ USCDI
 CumulusQ USCDI is a collection of data metrics that make it easier to surface interesting trends in your FHIR data, from conformance issues to code coverage to demographic information.
