@@ -1,8 +1,31 @@
 ---
 ---
-$primary: #76ACCD;
+// $primary: #76ACCD;
+
+$primary: #369;
+
+$link: #07E;
+// $info: $cyan
+// $success: $green
+// $warning: $yellow
+// $danger: $red
+// $dark: $grey-darker
+$text: #666;
+
+// $family-primary: -apple-system, "Roboto", "Helvetica Neue", "Arial", sans-serif;
+$body-size: 18px;
+
 // Import Main CSS file from theme
 @import "main";
+
+html {
+  -moz-osx-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  color: #258;
+}
 
 // Two-column layout support
 .grid {
