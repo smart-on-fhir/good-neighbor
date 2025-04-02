@@ -3,10 +3,11 @@ title: Sandboxes
 parent: Home
 hide_hero: true
 nav_order: 1
+permalink: /sandboxes/
 ---
 
 # Bulk Data Sandboxes
-
+---
 <a id="smart"/>
 ## SMART Reference Implementation
 The SMART team maintains an open access
