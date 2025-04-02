@@ -44,7 +44,7 @@ TODO: Form
 
 <div class="column" markdown=1>
 
-### CumulusQ USCDI
+## CumulusQ USCDI
 CumulusQ USCDI is a collection of data metrics that make it easier to surface interesting trends in your FHIR data, from conformance issues to code coverage to demographic information.
 
 SMART is interested in collecting data metrics from as many different sites as possible.
