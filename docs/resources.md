@@ -3,6 +3,7 @@ title: Resources
 hide_hero: true
 parent: Home
 nav_order: 1
+permalink: /resources/
 ---
 # Bulk FHIR Resources
 

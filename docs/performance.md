@@ -3,6 +3,7 @@ title: Performance & Quality
 parent: Home
 hide_hero: true
 nav_order: 1
+permalink: /performance/
 ---
 
 # BulkUP - the Bulk Data User Partnership

@@ -3,6 +3,7 @@ title: Sandboxes
 parent: Home
 hide_hero: true
 nav_order: 1
+permalink: /sandboxes/
 ---
 
 # Bulk Data Sandboxes

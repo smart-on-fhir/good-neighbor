@@ -2,6 +2,7 @@
 title: Home
 hide_hero: true
 nav_order: 0
+permalink: /
 ---
 
 # EHR Good Neighbor

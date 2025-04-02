@@ -3,6 +3,7 @@ title: EHR Vendor Tips & Tricks
 parent: Home
 hide_hero: true
 nav_order: 1
+permalink: /tips/
 ---
 
 # Vendor Tips & Tricks
