@@ -41,12 +41,13 @@ Here are some strategies to reduce the amount of data you are exporting:
   - Just Conditions: `_type=Condition`
 - For resources with a lot of entries (like Observation),
   you might additionally slice by category
-  - Just laboratory Observations:
-  `_type=Observation&_typeFilter=Observation%3Fcategory%3Dlaboratory`
+  - Just laboratory Observations: a type filter of `Observation?category=laboratory`
+  - Or in full and URL-encoded: `_type=Observation&_typeFilter=Observation%3Fcategory%3Dlaboratory`
 - Export only a window of time for a given resource.
   Most resources have some sort of date-based search parameter you can use.
-  - Just 2023 Encounters:
-  `_type=Encounter&_typeFilter=Encounter%3Fdate%3Dge2023-01-01T00:00:00Z%26date%3Dlt2024-01-01T00:00:00Z`
+  - Just 2023 Encounters: a type filter of
+  `Encounter?date=ge2023-01-01T00:00:00Z&date=lt2024-01-01T00:00:00Z`
+  - Or in full and URL-encoded: `_type=Encounter&_typeFilter=Encounter%3Fdate%3Dge2023-01-01T00:00:00Z%26date%3Dlt2024-01-01T00:00:00Z`
 
 ## Oracle
 
