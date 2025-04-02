@@ -1,0 +1,37 @@
+<nav class="navbar is-primary is-fixed-top" x-data="{ openNav: false }">
+  <div class="container">
+      <div class="navbar-brand">
+          <a href="/" class="navbar-item mr-4 logo {% if (page.url == '/' or page.url == '/index.html') %}is-active{% endif %}">
+            <img src="{{ '/assets/smart-logo-light-text.svg' | relative_url }}"
+              alt="Your Logo" width="40" height="40"> <b>{{ site.title }}</b>
+          </a>
+          <a
+              role="button"
+              class="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navMenu"
+              :class="{ 'is-active': openNav }"
+              x-on:click="openNav = !openNav"
+          >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+          </a>
+      </div>
+      <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+          <div class="navbar-start">
+              {% for item in site.data.navigation %}
+                {% assign item_url = item.link | relative_url %}
+                {% assign current_url = page.url | relative_url %}
+
+                <a class="navbar-item {% if item_url == current_url or (current_url == '/' and item_url == '/index.html') %}is-active{% endif %}" 
+                  href="{{ item_url }}">
+                  {{ item.name }}
+                </a>
+              {% endfor %}
+          </div>
+          <div class="navbar-end"></div>
+      </div>
+  </div>
+</nav>
