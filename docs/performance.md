@@ -26,23 +26,35 @@ SMART bulk export clients generate a
 [standard log format](https://github.com/smart-on-fhir/bulk-data-client/wiki/Bulk-Data-Export-Log-Items)
 that has interesting data about the timing of the export and how many resources were exported. (It holds no sensitive or personal data.)
 
-### How to generate export logs
+<h3>
+    <span class="icon has-text-info">
+        <i class="icon fas fa-question-circle"></i>
+    </span> How to generate export logs
+</h3>
 All you have to do is use one of the SMART bulk data tools (read more about them on the [Bulk Data Sandboxes](sandboxes.md) page) and there should be a `log.ndjson` file sitting in the data download folder (or several files with names like `log*.ndjson`), next to your other NDJSON files.
 
-### How to submit your logs to SMART
+<h3>
+    <span class="icon has-text-info">
+        <i class="icon fas fa-question-circle"></i>
+    </span> How to submit your logs to SMART
+</h3>
 TODO: Form
 
 </div>
 
 <div class="column" markdown=1>
 
-## CumulusQ USCDI
+### CumulusQ USCDI
 CumulusQ USCDI is a collection of data metrics that make it easier to surface interesting trends in your FHIR data, from conformance issues to code coverage to demographic information.
 
 SMART is interested in collecting data metrics from as many different sites as possible.
 This will help us understand the FHIR conformance challenges experienced by different vendors, how widespread certain standardized code systems are, and the general shape of FHIR data in the wild.
 
-### How to generate the data metrics
+<h3>
+    <span class="icon has-text-info">
+        <i class="icon fas fa-question-circle"></i>
+    </span> How to generate the data metrics
+</h3>
 These metrics are designed as a 
 [Cumulus Library](https://docs.smarthealthit.org/cumulus/library/)
 study. They can operate on small amounts of local data, but you will be able to run metrics for your entire population if you set up the entire 
@@ -71,7 +83,11 @@ cumulus-library export \
 This will create a local file `metrics.db` that holds all the calculated metrics based on your data
 and a `reports/` directory that holds summaries of the results, in both CSV and parquet forms.
 
-### How to submit your logs to SMART
+<h3>
+    <span class="icon has-text-info">
+        <i class="icon fas fa-question-circle"></i>
+    </span> How to submit your logs to SMART
+</h3>
 TODO: Form
 
 </div>
