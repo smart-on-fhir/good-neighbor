@@ -47,5 +47,6 @@ permalink: /resources/
 - [SQL-on-FHIR](https://sql-on-fhir.org/) - Analytics for Bulk FHIR datasets
 - [Microsoft Anonymization Tool](https://github.com/microsoft/Tools-for-Health-Data-Anonymization) - Open source de-identification for Bulk FHIR datasets
 
-### Suggest a Resource
-TODO: Form
+
+<hr class="mt-6 mb-6">
+<a class="button is-info" href="https://github.com/smart-on-fhir/good-neighbor/blob/main/docs/resources.md" target="_blank">Suggest a Resource</a>
