@@ -100,6 +100,5 @@ your cohort of patients.
 
 <br />
 
-## Share a Tip
----
-TODO: Form Here
+<hr class="mt-6 mb-6">
+<a class="button is-info" href="https://github.com/smart-on-fhir/good-neighbor/blob/main/docs/tips.md" target="_blank">Share a Tip</a>
