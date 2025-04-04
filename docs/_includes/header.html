@@ -1,8 +1,8 @@
 <nav class="navbar is-primary is-fixed-top" x-data="{ openNav: false }">
   <div class="container">
       <div class="navbar-brand">
-          <a href="{{ '/' | relative_url }}" class="navbar-item mr-4 logo {% if (page.url == '/' or page.url == '/index.html') %}is-active{% endif %}">
-            <img src="{{ '/assets/smart-logo-light-text.svg' | relative_url }}"
+          <a href="{{ site.baseurl }}" class="navbar-item mr-4 logo {% if (page.url == '/' or page.url == '/index.html') %}is-active{% endif %}">
+            <img src="{{ site.baseurl }}/assets/smart-logo-light-text.svg"
               alt="EHR Good Neighbor Logo" width="40" height="40"> <b>{{ site.title }}</b>
           </a>
           <a
