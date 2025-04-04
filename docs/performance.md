@@ -14,7 +14,19 @@ across five sites and three software implementations. The results showed that bu
 
 But implementations are always changing, and there are certainly more implementations to test. That's where you come in - measure the performance and data quality of your Bulk FHIR interface using the open source CumulusQ tools and share your results with the community!
 
----
+<hr class="mt-6 mb-6">
+
+<h3>
+    <span class="icon has-text-info">
+        <i class="icon fas fa-question-circle"></i>
+    </span> How to submit your logs to SMART
+</h3>
+Please use this form to request that your bulk FHIR API experience be seen by the community. Feel free to describe both interoperability issues and success stories. Someone from the community will verify and reach out to the email provided to obtain more information. Verified issues and stories will be listed publicly and can be updated based on vendor engagement.
+
+<a class="button is-info" href="https://docs.google.com/forms/d/e/1FAIpQLSd9GVWs6VyW8nfSLOd2p75HPQNbCpLwd2YP__TaC9BAY1Ukwg/viewform" target="_blank">Submit Your Logs</a>
+
+
+<hr class="mt-6 mb-6">
 <div class="columns is-8">
 <div class="column" markdown=1>
 
@@ -32,15 +44,6 @@ that has interesting data about the timing of the export and how many resources 
     </span> How to generate export logs
 </h3>
 All you have to do is use one of the SMART bulk data tools (read more about them on the [Bulk Data Sandboxes](sandboxes.md) page) and there should be a `log.ndjson` file sitting in the data download folder (or several files with names like `log*.ndjson`), next to your other NDJSON files.
-
-<h3>
-    <span class="icon has-text-info">
-        <i class="icon fas fa-question-circle"></i>
-    </span> How to submit your logs to SMART
-</h3>
-Please use this form to request that your bulk FHIR API experience be seen by the community. Feel free to describe both interoperability issues and success stories. Someone from the community will verify and reach out to the email provided to obtain more information. Verified issues and stories will be listed publicly and can be updated based on vendor engagement.
-
-<a class="button is-info" href="https://docs.google.com/forms/d/e/1FAIpQLSd9GVWs6VyW8nfSLOd2p75HPQNbCpLwd2YP__TaC9BAY1Ukwg/viewform" target="_blank">Submit Your Logs</a>
 
 </div>
 
@@ -84,15 +87,6 @@ cumulus-library export \
 ```
 This will create a local file `metrics.db` that holds all the calculated metrics based on your data
 and a `reports/` directory that holds summaries of the results, in both CSV and parquet forms.
-
-<h3>
-    <span class="icon has-text-info">
-        <i class="icon fas fa-question-circle"></i>
-    </span> How to submit your logs to SMART
-</h3>
-Please use this form to request that your bulk FHIR API experience be seen by the community. Feel free to describe both interoperability issues and success stories. Someone from the community will verify and reach out to the email provided to obtain more information. Verified issues and stories will be listed publicly and can be updated based on vendor engagement.
-
-<a class="button is-info" href="https://docs.google.com/forms/d/e/1FAIpQLSd9GVWs6VyW8nfSLOd2p75HPQNbCpLwd2YP__TaC9BAY1Ukwg/viewform" target="_blank">Submit Your Logs</a>
 
 </div>
 </div>
