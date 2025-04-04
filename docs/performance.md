@@ -38,7 +38,9 @@ All you have to do is use one of the SMART bulk data tools (read more about them
         <i class="icon fas fa-question-circle"></i>
     </span> How to submit your logs to SMART
 </h3>
-TODO: Form
+Please use this form to request that your bulk FHIR API experience be seen by the community. Feel free to describe both interoperability issues and success stories. Someone from the community will verify and reach out to the email provided to obtain more information. Verified issues and stories will be listed publicly and can be updated based on vendor engagement.
+
+<a class="button is-info" href="https://docs.google.com/forms/d/e/1FAIpQLSd9GVWs6VyW8nfSLOd2p75HPQNbCpLwd2YP__TaC9BAY1Ukwg/viewform" target="_blank">Submit Your Logs</a>
 
 </div>
 
@@ -88,7 +90,9 @@ and a `reports/` directory that holds summaries of the results, in both CSV and 
         <i class="icon fas fa-question-circle"></i>
     </span> How to submit your logs to SMART
 </h3>
-TODO: Form
+Please use this form to request that your bulk FHIR API experience be seen by the community. Feel free to describe both interoperability issues and success stories. Someone from the community will verify and reach out to the email provided to obtain more information. Verified issues and stories will be listed publicly and can be updated based on vendor engagement.
+
+<a class="button is-info" href="https://docs.google.com/forms/d/e/1FAIpQLSd9GVWs6VyW8nfSLOd2p75HPQNbCpLwd2YP__TaC9BAY1Ukwg/viewform" target="_blank">Submit Your Logs</a>
 
 </div>
 </div>
