@@ -5,3 +5,8 @@ plugins:
   - github-pages
 
 fixed_navbar: top
+
+url: "https://good-neighbor.smarthealthit.org"
+baseurl: ""  # Leave blank if deployed at root of the subdomain
+
+repository: smart-on-fhir/good-neighbor
