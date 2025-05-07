@@ -17,10 +17,6 @@ permalink: /case-studies/
 
 Users of certified APIs across the healthcare IT ecosystem have come forward with their stories.
 
-Your experience matters! Filling out the form below will let us get your interoperability issues and success stories seen by other members of the community. Someone from the community will verify and reach out to the email provided to obtain more information. Verified issues and stories will be listed publicly and can be updated based on vendor engagement.
-
-<br />
-
 - [Accelerating Clinical Trial Recruitment with Bulk FHIR](#accelerating-clinical-trial-recruitment-with-bulk-fhir)
 - [Efficient Value Based Care with Bulk FHIR](#efficient-value-based-care-with-bulk-fhir)
 - [Scaling Research Data Access Statewide with Bulk FHIR](#scaling-research-data-access-statewide-with-bulk-fhir)
