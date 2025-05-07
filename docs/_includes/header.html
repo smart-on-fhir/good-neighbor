@@ -22,13 +22,15 @@
       <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
           <div class="navbar-start">
               {% for item in site.data.navigation %}
-                {% assign item_url = item.link | relative_url %}
-                {% assign current_url = page.url | relative_url %}
-
-                <a class="navbar-item {% if item_url == current_url or (current_url == '/' and item_url == '/index.html') %}is-active{% endif %}" 
-                  href="{{ item_url }}">
-                  {{ item.name }}
+                
+                {% assign item_url = item.link | relative_url | replace: '//', '/' %}
+                {% assign current_url = page.url | relative_url | replace: '//', '/' %}
+                
+                <a class="navbar-item {% if current_url == item_url or current_url != '/' and current_url contains item_url %}is-active{% endif %}" 
+                    href="{{ item_url }}">
+                    {{ item.name }}
                 </a>
+
               {% endfor %}
           </div>
           <div class="navbar-end"></div>
