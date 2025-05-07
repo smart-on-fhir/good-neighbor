@@ -12,6 +12,8 @@ $body-size: 18px;
 html {
   -moz-osx-font-smoothing: subpixel-antialiased;
   -webkit-font-smoothing: subpixel-antialiased;
+  scroll-behavior: smooth;
+  scroll-padding-block: 5rem;
 }
 
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
