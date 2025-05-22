@@ -20,6 +20,7 @@ Users of certified APIs across the healthcare IT ecosystem have come forward wit
 - [Accelerating Clinical Trial Recruitment with Bulk FHIR](#accelerating-clinical-trial-recruitment-with-bulk-fhir)
 - [Efficient Value Based Care with Bulk FHIR](#efficient-value-based-care-with-bulk-fhir)
 - [Scaling Research Data Access Statewide with Bulk FHIR](#scaling-research-data-access-statewide-with-bulk-fhir)
+- [Re-imagining Public Health Monitoring with Bulk FHIR](#re-imagining-public-health-monitoring-with-bulk-fhir)
 
 <hr class="mb-6 mt-6"/>
 
@@ -91,6 +92,31 @@ Regenstrief Institute implemented a Bulk FHIR interface to provide access for re
 <div class="columns is-vcentered is-mobile">
     <div class="column">
         <a class="button is-info" href="/case-studies/scaling-research-data-access-statewide-with-bulk-fhir">Read more</a>
+    </div>
+    <div class="column is-narrow">
+        <a class="icon-text has-text-grey-light" href="#top">Back to top <span class="icon"><i class="fas fa-arrow-up"></i></span></a>
+    </div>
+</div>
+<hr class="mb-6 mt-6"/>
+
+<div id="re-imagining-public-health-monitoring-with-bulk-fhir" class="columns is-mobile">
+    <div class="has-text-grey-light column is-narrow pr-0">
+        <h3 class="fa fa-globe has-text-grey-light"></h3>
+    </div>
+    <div class="column">
+        <h3>
+            <a href="/case-studies/re-imagining-public-health-monitoring-with-bulk-fhir">
+                Re-imagining Public Health Monitoring with Bulk FHIR
+            </a>
+        </h3>
+    </div>
+</div>
+
+In early 2023, Washington University School of Medicine began implementing Bulk FHIR to demonstrate modern, automated public health monitoring capabilities. Bulk FHIR appeared ideally suited to this task, given its capacity to handle population-level data efficiently and support timely data queries critical for public health surveillance and AI-driven analytics. However, practical experience with our electronic health record system’s Bulk FHIR implementation revealed significant technical limitations, hindering its immediate utility and necessitating interim workarounds.
+
+<div class="columns is-vcentered is-mobile">
+    <div class="column">
+        <a class="button is-info" href="/case-studies/re-imagining-public-health-monitoring-with-bulk-fhir">Read more</a>
     </div>
     <div class="column is-narrow">
         <a class="icon-text has-text-grey-light" href="#top">Back to top <span class="icon"><i class="fas fa-arrow-up"></i></span></a>
