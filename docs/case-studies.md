@@ -21,6 +21,7 @@ Users of certified APIs across the healthcare IT ecosystem have come forward wit
 - [Efficient Value Based Care with Bulk FHIR](#efficient-value-based-care-with-bulk-fhir)
 - [Scaling Research Data Access Statewide with Bulk FHIR](#scaling-research-data-access-statewide-with-bulk-fhir)
 - [Re-imagining Public Health Monitoring with Bulk FHIR](#re-imagining-public-health-monitoring-with-bulk-fhir)
+- [MultiCare: Reducing Cost and Burden in Quality Reporting with FHIR](#multicare-reducing-cost-and-burden-in-quality-reporting-with-fhir)
 
 <hr class="mb-6 mt-6"/>
 
@@ -117,6 +118,32 @@ In early 2023, Washington University School of Medicine began implementing Bulk 
 <div class="columns is-vcentered is-mobile">
     <div class="column">
         <a class="button is-info" href="/case-studies/re-imagining-public-health-monitoring-with-bulk-fhir">Read more</a>
+    </div>
+    <div class="column is-narrow">
+        <a class="icon-text has-text-grey-light" href="#top">Back to top <span class="icon"><i class="fas fa-arrow-up"></i></span></a>
+    </div>
+</div>
+
+<hr class="mb-6 mt-6"/>
+
+<div id="multicare-reducing-cost-and-burden-in-quality-reporting-with-fhir" class="columns is-mobile">
+    <div class="has-text-grey-light column is-narrow pr-0">
+        <h3 class="fa fa-globe has-text-grey-light"></h3>
+    </div>
+    <div class="column">
+        <h3>
+            <a href="/case-studies/multicare-reducing-cost-and-burden-in-quality-reporting-with-fhir">
+                MultiCare: Reducing Cost and Burden in Quality Reporting with FHIR
+            </a>
+        </h3>
+    </div>
+</div>
+
+MultiCare Health System used bulk FHIR APIs and cloud infrastructure to transform Medicare quality reporting, cutting costs by more than half and enabling near–real-time feedback to clinicians. By replacing manual chart abstraction with automated data exchange across Epic, NextGen, and eClinicalWorks, MultiCare scaled reporting to tens of thousands of patients while improving data quality and reducing burden.
+
+<div class="columns is-vcentered is-mobile">
+    <div class="column">
+        <a class="button is-info" href="/case-studies/multicare-reducing-cost-and-burden-in-quality-reporting-with-fhir">Read more</a>
     </div>
     <div class="column is-narrow">
         <a class="icon-text has-text-grey-light" href="#top">Back to top <span class="icon"><i class="fas fa-arrow-up"></i></span></a>
