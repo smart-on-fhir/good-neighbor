@@ -23,7 +23,7 @@ permalink: /resources/
 - [Pre-generated Bulk FHIR Sample Datasets](https://github.com/smart-on-fhir/sample-bulk-fhir-datasets)
 
 ### Open Source Server Implementations
-- [SMART Public Sandbox](https://bulk-data.smarthealthit.org/) / [Code](https://github.com/smart-on-fhir/bulk-data-sandbox) / [Connecting a Client](sandboxes.md#smart)
+- [SMART Public Sandbox](https://bulk-data.smarthealthit.org/) / [Code](https://github.com/smart-on-fhir/bulk-data-server) / [Connecting a Client](sandboxes.md#smart)
 - [HAPI FHIR Server](https://hapifhir.io/) / [Code](https://github.com/hapifhir/hapi-fhir)
 - [Microsoft FHIR Server](https://github.com/microsoft/fhir-server)
 
