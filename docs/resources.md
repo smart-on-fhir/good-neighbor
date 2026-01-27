@@ -29,7 +29,7 @@ permalink: /resources/
 
 ### Open Source Client Implementations
 - [Bulk Data Client Reference Implementation](https://github.com/smart-on-fhir/bulk-data-client)
-- [Cumulus ETL Client](https://github.com/smart-on-fhir/cumulus-etl)
+- [SMART Fetch](https://github.com/smart-on-fhir/smart-fetch)
 
 ### Commercial Server Implementations
 - [300+ Certified EHR Systems](https://chpl.healthit.gov/#/api-documentation)

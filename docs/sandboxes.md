@@ -29,12 +29,13 @@ node . \
   --fhir-url https://bulk-data.smarthealthit.org/fhir \
   --_type Patient
 ```
-Using cumulus-etl:
+Using SMART Fetch:
 ```sh
-pipx install cumulus-etl
+pipx install smart-fetch
 
-cumulus-etl export \
-  'https://bulk-data.smarthealthit.org/fhir/$export?_type=Patient' \
+smart-fetch bulk \
+  --fhir-url https://bulk-data.smarthealthit.org/fhir \
+  --type Patient \
   ./downloads
 ```
 
@@ -73,14 +74,16 @@ This is the Epic sandbox group URL:
 `https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Group/e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83`
 
 ### Example
-Using cumulus-etl:
+Using SMART Fetch:
 ```sh
-pipx install cumulus-etl
+pipx install smart-fetch
 
-cumulus-etl export \
+smart-fetch bulk \
   --smart-client-id=xxx \
   --smart-key=./privatekey.pem \
-  'https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/Group/e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83/$export?_type=Patient' \
+  --fhir-url https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4 \
+  --group e3iabhmS8rsueyz7vaimuiaSmfGvi.QwjVXJANlPOgR83 \
+  --type Patient \
   ./downloads
 ```
 ### Further Reading
@@ -135,12 +138,14 @@ node . \
   --_type Patient
 ```
 ```sh
-pipx install cumulus-etl
+pipx install smart-fetch
 
-cumulus-etl export \
+smart-fetch bulk \
   --smart-client-id=xxx \
   --smart-key=./private.jwks \
-  'https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Group/11ec-d16a-c763b73e-98e8-a31715e6a2bf/$export?_type=Patient' \
+  --fhir-url https://fhir-ehr-code.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d \
+  --group 11ec-d16a-c763b73e-98e8-a31715e6a2bf \
+  --type Patient \
   ./downloads
 ```
 
